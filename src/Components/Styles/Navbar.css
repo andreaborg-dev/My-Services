@@ -1,0 +1,24 @@
+.navbar {
+  border: 5px solid white;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    a{
+        padding: 13px 40px;
+    }
+}
+
