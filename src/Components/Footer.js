@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <p> ▶ Andrea Borg ◀ </p>
-            <p> ︵‿︵‿︵‿︵ </p>
+            <p className='lines'> ︵‿︵‿︵‿︵ </p>
         </footer>
     );
 }

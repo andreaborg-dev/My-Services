@@ -1,24 +1,80 @@
 .navbar {
-  border: 5px solid white;
   grid-row: 1 / 2;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  background-color: #333;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 a {
+  background: #e0fbfc;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 5px;
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   padding: 8px 12px;
   font-size: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #3d5a80;
+  color: white;
+  border: white solid 2px;
+}
+
+.CTA {
+  background-color: #ee6c4d;
+}
+
+.CTA:hover {
+  background-color: #df502d;
+  color: white;
+  border: white solid 2px;
+}
+
+.buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Logo {
+  grid-column: 1/2;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logoimg {
+  background: transparent;
+  text-decoration: none;
+  height: 50%;
+  width: auto;
+  border: none;
+}
+
+.logoimg:hover{
+  background-color: transparent;
+  border: none;
 }
 
 @media (min-width: 768px) {
-    a{
-        padding: 13px 40px;
-    }
-}
+  .navbar {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+  }
+  .Logo {
+    display: flex;
+  }
 
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 2 / 3;
+  }
+
+  a {
+    padding: 13px 40px;
+  }
+}

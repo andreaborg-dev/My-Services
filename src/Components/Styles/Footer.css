@@ -1,16 +1,19 @@
-footer{
-    border: 5px solid white;
-    grid-row: 3 / 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 0.3em;
+footer {
+  border: 3px solid rgb(0, 0, 0);
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.3em;
 }
 
+.lines {
+  letter-spacing: 0em;
+}
 
 @media (min-width: 768px) {
-    footer{
-         letter-spacing: 0.5em;
-    }
+  footer {
+    letter-spacing: 0.5em;
+  }
 }
