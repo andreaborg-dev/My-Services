@@ -1,10 +1,10 @@
-import './Styles/Footer.css';
+import "./Styles/Footer.css";
 
 export default function Footer() {
-    return (
-        <footer>
-            <p> ▶ Andrea Borg ◀ </p>
-            <p className='lines'> ︵‿︵‿︵‿︵ </p>
-        </footer>
-    );
+  return (
+    <footer>
+      <p>▶ Andrea Borg ◀</p>
+      <p className="lines"> ︵‿︵‿︵‿︵ </p>
+    </footer>
+  );
 }

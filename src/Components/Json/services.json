@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/",
+    "name": "Pet-Sitting",
+    "description": "Magical care for your companions while you’re away — feeding, play, and cozy enchantment.",
+    "pricingmin": "€20",
+    "pricingmax": "€30"
+  },
+  {
+    "id": 2,
+    "image": "/",
+    "name": "Dog-Walking",
+    "description": "Enchanting walks filled with energy, fresh air, and a sprinkle of magic for happy paws.",
+    "pricingmin": "€10",
+    "pricingmax": "€20"
+  },
+  {
+    "id": 3,
+    "image": "/",
+    "name": "Pet Food Delivery",
+    "description": "Fresh, fast delivery of your pet’s favourite enchanted meals and treats.",
+    "pricingmin": "€5",
+    "pricingmax": "€15"
+  },
+  {
+    "id": 4,
+    "image": "/",
+    "name": "Pet Transportation",
+    "description": "Safe, comfortable travel for pets and magical creatures heading to any destination.",
+    "pricingmin": "€15",
+    "pricingmax": "€25"
+  },
+  {
+    "id": 5,
+    "image": "/",
+    "name": "Pet Playtime Sessions",
+    "description": "Fun, energetic play infused with magical enrichment to keep spirits bright.",
+    "pricingmin": "€10",
+    "pricingmax": "€18"
+  },
+  {
+    "id": 6,
+    "image": "/",
+    "name": "Pet Sitting for Exotic Pets",
+    "description": "Specialized, gentle care for rare and mystical companions with unique needs.",
+    "pricingmin": "€25",
+    "pricingmax": "€40"
+  }
+]

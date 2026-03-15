@@ -7,7 +7,7 @@ export default function Header() {
     <div className="navbar">
       <div className="Logo">
         <Link to="/" className="logoimg">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="logo"/>
         </Link>
       </div>
 
@@ -15,7 +15,7 @@ export default function Header() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
-        <Link to="/contact" className="CTA">Contact</Link>
+        <Link to="/contact" id="CTA">Contact</Link>
       </div>
     </div>
   );

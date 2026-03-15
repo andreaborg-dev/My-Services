@@ -4,7 +4,7 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 import Header from "./Navbar";
-import './Styles/Main.css';
+import "./Styles/Main.css";
 
 export default function Main() {
   return (

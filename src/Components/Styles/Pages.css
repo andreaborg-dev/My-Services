@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Magic_School";
+  src: url(../Fonts/MagicSchoolOne.ttf);
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(../Fonts/Cormorant-Regular.ttf);
+}
+
+.Home-Page,
+.About-Page,
+.Services-Page,
+.Contact-Page {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Header {
+  width: 100vw;
+  min-height: 100px;
+  max-height: 200px;
+  background: radial-gradient(circle at center, #f7f7fa -100%, #6a4fbf);
+  border: 3px solid #000000;
+  color: #3A3A3A;
+  font-family: "Cormorant";
+  letter-spacing: 2px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact-Page .Header {
+  background: radial-gradient(circle at center, #f7f7fa -100%, #F27BB5);
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  .Header {
+    font-size: 25px;
+  }
+}

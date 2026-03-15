@@ -5,6 +5,6 @@
 }
 
 body {
-    background: radial-gradient(circle at center, rgb(0, 0, 0) -150%, #98c1d9 90%);
-    color: rgb(0, 0, 0);
+    background: #F7F7FA;
+    color: #3A3A3A;
 }
