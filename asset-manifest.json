@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.198df7cd.css",
-    "main.js": "/static/js/main.857a5d04.js",
+    "main.css": "/static/css/main.e6320117.css",
+    "main.js": "/static/js/main.da8a30fd.js",
     "static/js/453.320a37dd.chunk.js": "/static/js/453.320a37dd.chunk.js",
-    "static/media/dogwalking.png": "/static/media/dogwalking.200373addb4da398c91e.png",
-    "static/media/PFD.png": "/static/media/PFD.26eba3b309b6a3cf3e6a.png",
-    "static/media/petsitting.png": "/static/media/petsitting.25a5e9bd5cb63397dc43.png",
-    "static/media/PPS.png": "/static/media/PPS.9436b86a32f6bfc9d12a.png",
-    "static/media/PT.png": "/static/media/PT.d338b09a27cbccaa8239.png",
-    "static/media/PSFEP.png": "/static/media/PSFEP.2467baefdde540005667.png",
-    "static/media/Contact.png": "/static/media/Contact.9125ef5314625be888a4.png",
-    "static/media/Home.png": "/static/media/Home.8850014f7f5cf6d449e2.png",
-    "static/media/About_Us.png": "/static/media/About_Us.a964252d34d4f940b4f3.png",
-    "static/media/Services.png": "/static/media/Services.6de2cad021ed1cd18f21.png",
     "static/media/Error_Img.png": "/static/media/Error_Img.75df4931bd9cc1b694c2.png",
-    "static/media/Logo.png": "/static/media/Logo.d33d7520267aab38d002.png",
     "static/media/Cormorant-Regular.ttf": "/static/media/Cormorant-Regular.eb2dfce4fb6b6280f58f.ttf",
+    "static/media/Logo.webp": "/static/media/Logo.57581e219aadd33ffb25.webp",
     "static/media/MagicSchoolOne.ttf": "/static/media/MagicSchoolOne.b038498b185d5ff717b0.ttf",
+    "static/media/PFD.webp": "/static/media/PFD.5ff73b50f1956eb01b71.webp",
+    "static/media/PT.webp": "/static/media/PT.e82d744adfee585be314.webp",
+    "static/media/PPS.webp": "/static/media/PPS.c22c3ff2d9acbf3c3fe4.webp",
+    "static/media/dogwalking.webp": "/static/media/dogwalking.cc5b3b50d7fa3ed8a713.webp",
+    "static/media/PSFEP.webp": "/static/media/PSFEP.9e7975a8646ceaaf0962.webp",
+    "static/media/petsitting.webp": "/static/media/petsitting.70f112babae586b82c0e.webp",
+    "static/media/Contact.webp": "/static/media/Contact.263560a7d88446b91e8f.webp",
+    "static/media/Home.webp": "/static/media/Home.db13d6d5eb732f155ac8.webp",
+    "static/media/About_Us.webp": "/static/media/About_Us.9f397dd44cb966a4a57b.webp",
+    "static/media/Services.webp": "/static/media/Services.6ac2b49a30785a5678d3.webp",
     "index.html": "/index.html",
-    "main.198df7cd.css.map": "/static/css/main.198df7cd.css.map",
-    "main.857a5d04.js.map": "/static/js/main.857a5d04.js.map",
+    "main.e6320117.css.map": "/static/css/main.e6320117.css.map",
+    "main.da8a30fd.js.map": "/static/js/main.da8a30fd.js.map",
     "453.320a37dd.chunk.js.map": "/static/js/453.320a37dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.198df7cd.css",
-    "static/js/main.857a5d04.js"
+    "static/css/main.e6320117.css",
+    "static/js/main.da8a30fd.js"
   ]
 }
