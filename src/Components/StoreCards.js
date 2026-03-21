@@ -1,4 +1,4 @@
-import cards from "./Json/services.json";
+import cards from "./Json/store.json";
 import { Link } from "react-router-dom";
 import defaultimg from "./Images/Error_Img.png";
 import "./Styles/Cards.css";
@@ -33,12 +33,9 @@ export default function CardList() {
           <p id="br-start">{card.description}</p>
           <p id="br-end">{card.descriptionbr}</p>
           <p id="price">
-            Price Range: {card.pricingmin} - {card.pricingmax} per {card.per}
+            Price: €{card.price}
           </p>
-          <Link to="/contact">Contact Us</Link>
-          <p id="warning">
-            *Extra enchanted treats or supplies may add to the final price.
-          </p>
+          <Link to="/contact">Buy Now</Link>
         </div>
       ))}
     </div>

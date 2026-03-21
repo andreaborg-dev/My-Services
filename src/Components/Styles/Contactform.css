@@ -1,0 +1,70 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  min-width: fit-content;
+  height: fit-content;
+  align-items: center;
+  color: gold;
+  border: 3px solid gold;
+  border-radius: 10px;
+}
+
+.center-vert{
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-w {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.submit {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 15px;
+  height: 30px;
+  width: 10em;
+  background: radial-gradient(circle at center, white -50%, gold);
+  margin: 20px;
+  color: #3a3a3a;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at center, white, #8292ff 150%);
+  transform: scale(1.05);
+}
+
+label, .labelt{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+textarea, input{
+    border-radius: 5px;
+    height: 25px;
+    width: 80%;
+}
+
+textarea{
+   margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+  .contact-form{
+    width: 50vw;
+  }
+}

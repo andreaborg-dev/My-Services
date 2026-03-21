@@ -1,50 +1,57 @@
 [
   {
     "id": 1,
-    "image": "/",
+    "image": "petsitting.webp",
     "name": "Pet-Sitting",
-    "description": "Magical care for your companions while you’re away — feeding, play, and cozy enchantment.",
+    "description": "Magical care for your companions ",
+    "descriptionbr": "while you’re away — feeding, play, and cozy enchantment.",
     "pricingmin": "€20",
-    "pricingmax": "€30"
+    "pricingmax": "€30",
+    "per": "visit"
   },
   {
     "id": 2,
-    "image": "/",
-    "name": "Dog-Walking",
+    "image": "dogwalking.webp",
+    "name": "Pet-Walking",
     "description": "Enchanting walks filled with energy, fresh air, and a sprinkle of magic for happy paws.",
     "pricingmin": "€10",
-    "pricingmax": "€20"
+    "pricingmax": "€20",
+    "per": "walk"
   },
   {
     "id": 3,
-    "image": "/",
+    "image": "PFD.webp",
     "name": "Pet Food Delivery",
     "description": "Fresh, fast delivery of your pet’s favourite enchanted meals and treats.",
     "pricingmin": "€5",
-    "pricingmax": "€15"
+    "pricingmax": "€15",
+    "per": "delivery"
   },
   {
     "id": 4,
-    "image": "/",
+    "image": "PT.webp",
     "name": "Pet Transportation",
     "description": "Safe, comfortable travel for pets and magical creatures heading to any destination.",
     "pricingmin": "€15",
-    "pricingmax": "€25"
+    "pricingmax": "€25",
+    "per": "trip"
   },
   {
     "id": 5,
-    "image": "/",
+    "image": "PPS.webp",
     "name": "Pet Playtime Sessions",
     "description": "Fun, energetic play infused with magical enrichment to keep spirits bright.",
     "pricingmin": "€10",
-    "pricingmax": "€18"
+    "pricingmax": "€18",
+    "per": "session"
   },
   {
     "id": 6,
-    "image": "/",
-    "name": "Pet Sitting for Exotic Pets",
+    "image": "PSFEP.webp",
+    "name": "Pet-Sitting for Exotic Pets",
     "description": "Specialized, gentle care for rare and mystical companions with unique needs.",
     "pricingmin": "€25",
-    "pricingmax": "€40"
+    "pricingmax": "€40",
+    "per": "visit"
   }
 ]

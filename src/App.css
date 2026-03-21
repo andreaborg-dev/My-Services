@@ -1,12 +1,12 @@
 .App{
     display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr auto;
     height: 100vh;
 }
 
 
 @media (min-width: 768px) {
     .App{
-        grid-template-rows: auto 5fr 1fr;
+        grid-template-rows: auto 5fr auto;
     }
 }

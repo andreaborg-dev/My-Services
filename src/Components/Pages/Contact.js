@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Contactform from "../Contactform";
 
 export default function Contact() {
   return (
@@ -13,6 +14,9 @@ export default function Contact() {
       <div className="Contact-Page">
         <div className="Header">
           <h1>Contact Us</h1>
+        </div>
+        <div className="center-vert">
+        <Contactform />
         </div>
       </div>
     </>
