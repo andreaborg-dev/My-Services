@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.32d5409a.css",
+    "main.css": "/static/css/main.f3733026.css",
     "main.js": "/static/js/main.ae969f2c.js",
     "static/js/453.320a37dd.chunk.js": "/static/js/453.320a37dd.chunk.js",
     "static/media/Cormorant-Regular.ttf": "/static/media/Cormorant-Regular.eb2dfce4fb6b6280f58f.ttf",
@@ -18,12 +18,12 @@
     "static/media/PSFEP.webp": "/static/media/PSFEP.9e7975a8646ceaaf0962.webp",
     "static/media/petsitting.webp": "/static/media/petsitting.70f112babae586b82c0e.webp",
     "index.html": "/index.html",
-    "main.32d5409a.css.map": "/static/css/main.32d5409a.css.map",
+    "main.f3733026.css.map": "/static/css/main.f3733026.css.map",
     "main.ae969f2c.js.map": "/static/js/main.ae969f2c.js.map",
     "453.320a37dd.chunk.js.map": "/static/js/453.320a37dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d5409a.css",
+    "static/css/main.f3733026.css",
     "static/js/main.ae969f2c.js"
   ]
 }
