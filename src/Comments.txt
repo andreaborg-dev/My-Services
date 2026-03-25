@@ -1,12 +1,24 @@
-	Colour Palette 1:
-    - Midnight Indigo (#2A2E6E) — deep, mystical base for headers or backgrounds
-    - Enchanted Purple (#6A4FBF) — accent for buttons or highlights
-    - Magical Pink (#F27BB5) — playful pop for calls‑to‑action
-    - Sky Aura Blue (#6ECFF6) — light, friendly contrast for sections or icons
-    - Stardust White (#F7F7FA) — clean background for readability
-    - Soft Charcoal (#3A3A3A) — text colour that stays elegant and accessible
-
-
+Colour Palette 1:
+    #2E4E8C — Deep Blue
+    - Main headers (H1, H2)
+    - Navigation text
+    - Strong, readable elements
+    #F285A2 — Soft Pink
+    - Sub‑headers (H3)
+    - Friendly highlights
+    - Soft emphasis in text
+    #3B9CD9 — Sky Blue
+    - Icons and small UI elements
+    - Hover states
+    - Light dividers or labels
+    #F2C185 — Peachy Gold
+    - Call‑to‑action buttons
+    - Accents and magical sparkles
+    - Important highlights
+    #F2F2F2 — Light Gray
+    - Page background
+    - Card backgrounds
+    - Neutral spacing areas
 
 
 

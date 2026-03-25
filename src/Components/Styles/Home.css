@@ -1,0 +1,102 @@
+.Home-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 24px;
+  max-width: 600px;
+}
+
+#Title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+#Subtitle {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 420px;
+  font-style: italic;
+}
+
+.homebuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Home-Container a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 12px;
+  height: 48px;
+  width: 180px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn1 {
+  background: #D9A86F;
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  border: 2px solid #D9A86F;
+  background: transparent;
+  color: #D9A86F;
+}
+
+@media (min-width: 600px) {
+  .Home-Container {
+    padding: 80px 40px;
+    gap: 28px;
+  }
+
+  #Title {
+    font-size: 2.8rem;
+  }
+
+  #Subtitle {
+    font-size: 1.15rem;
+  }
+
+  .homebuttons {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .Home-Container a {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 900px) {
+  .Home-Container {
+    padding: 100px 60px;
+    margin-left: 50px;
+  }
+
+  #Title {
+    font-size: 3.2rem;
+  }
+
+  #Subtitle {
+    font-size: 1.25rem;
+    max-width: 450px;
+  }
+
+  .Home-Container a {
+    width: 220px;
+    height: 52px;
+    font-size: 1.05rem;
+  }
+}

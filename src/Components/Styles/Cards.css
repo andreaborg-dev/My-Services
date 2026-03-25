@@ -1,29 +1,63 @@
 .cards-container {
-  width: 100vw;
+  width: 100%;
   display: flex;
-  height: fit-content;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 20px;
   margin: 20px 0;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
-.card{
-  background: #f5f7ff;
-  height: 450px;
-  padding: 10px;
-  width: 300px;
+.aboutcards-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.card {
+  background: #f5f7ff;
+  width: 90%;
+  max-width: 320px;
+  height: auto;
+  padding: 15px;
   border-radius: 20px;
+  border: 3px solid black;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 3px solid black;
 }
 
-.card img{
+.aboutcard {
+  background: #f5f7ff;
+  width: 95%;
+  border-radius: 20px;
+  border: 3px solid black;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.text {
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  height: 200px;
+  width: auto;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.card img {
   margin: 20px 0;
   border-radius: 50%;
   height: 100px;
@@ -31,32 +65,19 @@
   object-fit: contain;
 }
 
-.card img:hover{
+.card img:hover {
   transform: scale(1.2);
+  transition: 0.2s ease-in-out;
 }
 
 h3 {
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
   margin: 5px 0;
-}
-
-#br-start {
-  margin: 0 20px;
-}
-#br-end {
-  margin: 0 0 5px 0;
-}
-#warning {
-  color: rgb(208, 0, 0);
-  font-size: 13px;
-}
-#price {
-  font-weight: 900;
 }
 
 .card a{
@@ -67,15 +88,97 @@ p {
   font-weight: 900;
   border-radius: 15px;
   height: 40px;
-  width: 100px;
-  background: radial-gradient(circle at center, white -50%, #aeb2cc);
+  width: 120px;
+  background: radial-gradient(circle at center, white -50%, #F2C185);
   margin: 20px;
   color: #3a3a3a;
   transition: all 0.2s ease-in-out;
 }
 
-.card a:hover{
+.card a:hover {
   background: radial-gradient(circle at center, white, #aeb2cc 150%);
   transform: scale(1.05);
 }
 
+#Role{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-style: italic;
+}
+
+#AboutUsDesc{
+  color: rgb(58, 55, 121);
+}
+
+#AboutName{
+  color: black;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#warning{
+  color: red;
+}
+@media (min-width: 600px) {
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 260px;
+  }
+
+  .aboutcard {
+    width: 80%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .text {
+    grid-column: 1;
+  }
+
+  .image-wrapper {
+    grid-column: 2;
+  }
+
+  .image-wrapper img {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards-container {
+    gap: 30px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .aboutcard {
+    width: 70%;
+    padding: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .aboutcard {
+    width: 60%;
+  }
+
+  .image-wrapper img {
+    height: 200px;
+  }
+}

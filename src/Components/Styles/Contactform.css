@@ -5,8 +5,8 @@
   min-width: fit-content;
   height: fit-content;
   align-items: center;
-  color: gold;
-  border: 3px solid gold;
+  color: #2E4E8C;
+  border: 3px solid #2E4E8C;
   border-radius: 10px;
 }
 
@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
 }
 
 .full-w {
@@ -31,10 +32,10 @@
   align-items: center;
   justify-content: center;
   font-weight: 900;
-  border-radius: 15px;
+  border-radius: 5px;
   height: 30px;
   width: 10em;
-  background: radial-gradient(circle at center, white -50%, gold);
+  background:  #F2C185;
   margin: 20px;
   color: #3a3a3a;
   transition: all 0.2s ease-in-out;
@@ -53,18 +54,33 @@ label, .labelt{
     font-size: 17px;
 }
 
-textarea, input{
+input{
     border-radius: 5px;
-    height: 25px;
+    height: 35px;
     width: 80%;
+    background: #fff2e1;
+    font-family: "Cormorant";
+    font-weight: 800;
+    padding: 0 5px;
+    border: #2E4E8C 2.5px solid;
 }
 
-textarea{
-   margin-bottom: 20px;
+#message{
+  height: 60px;
 }
 
 @media (min-width: 768px){
   .contact-form{
     width: 50vw;
   }
+}
+
+@media (min-width: 1024px){
+.contact-form{
+  width: 300px;
+}
+
+#message{
+  height: 100px;
+}
 }

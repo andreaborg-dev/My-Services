@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   border: 2px solid #000000;
-  background: radial-gradient(circle at center,#926F34 -150%, #FFD700);
+  background: #F2C185;
 }
 
 a img, a {

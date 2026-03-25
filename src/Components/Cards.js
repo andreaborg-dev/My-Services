@@ -1,6 +1,6 @@
 import cards from "./Json/services.json";
 import { Link } from "react-router-dom";
-import defaultimg from "./Images/Error_Img.png";
+import defaultimg from "./Images/Error_Img.webp";
 import "./Styles/Cards.css";
 
 export default function CardList() {

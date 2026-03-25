@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import './Styles/Contactform.css'
+import "./Styles/Contactform.css";
 
 export default function Contactform() {
   const [form, setForm] = useState({
@@ -39,35 +39,40 @@ export default function Contactform() {
 
   return (
     <div className="full-w">
-    <form className="contact-form" onSubmit={handleSubmit}>
-      <label className="labe">Your Name</label>
-      <input
-        type="text"
-        name="name"
-        value={form.name}
-        onChange={handleChange}
-        required
-      />
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <label className="labe">Your FullName</label>
+        <input
+          type="text"
+          name="name"
+          value={form.name}
+          onChange={handleChange}
+          required
+          pattern="^[A-Za-z]+(\s+[A-Za-z]+)+$"
+          title="Please enter your full name (first and last)."
+        />
 
-      <label>Your Email</label>
-      <input
-        type="email"
-        name="email"
-        value={form.email}
-        onChange={handleChange}
-        required
-      />
+        <label>Your Email</label>
+        <input
+          type="email"
+          name="email"
+          value={form.email}
+          onChange={handleChange}
+          required
+        />
 
-      <label>Your Message</label>
-      <textarea
-        name="message"
-        value={form.message}
-        onChange={handleChange}
-        required
-      />
+        <label>Your Message</label>
+        <input
+          name="message"
+          value={form.message}
+          onChange={handleChange}
+          required
+          id="message"
+        />
 
-      <button type="submit" className="submit">Send Message</button>
-    </form>
+        <button type="submit" className="submit">
+          Send Message
+        </button>
+      </form>
     </div>
   );
 }

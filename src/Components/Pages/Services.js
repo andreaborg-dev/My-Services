@@ -14,11 +14,11 @@ export default function Services() {
       </Helmet>
 
       <div className="Services-Page">
-        <div className="Header">
+        {/* <div className="Header">
           <h1>Store & Services</h1>
-        </div>
+        </div> */}
 
-        <div className="SHeader">
+        <div className="Header">
           <h1>Services</h1>
         </div>
         <CardList />

@@ -5,7 +5,7 @@ footer {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle at center,#926F34 -150%, #FFD700);
+  background: #F2C185;
   color: #000000;
   font-family: 'cormorant';
   font-size: 19px;

@@ -3,8 +3,7 @@
     "id": 1,
     "image": "petsitting.webp",
     "name": "Pet-Sitting",
-    "description": "Magical care for your companions ",
-    "descriptionbr": "while you’re away — feeding, play, and cozy enchantment.",
+    "description": "Magical care for your companions while you’re away. feeding, play, and cozy enchantment.",
     "pricingmin": "€20",
     "pricingmax": "€30",
     "per": "visit"
@@ -22,7 +21,7 @@
     "id": 3,
     "image": "PFD.webp",
     "name": "Pet Food Delivery",
-    "description": "Fresh, fast delivery of your pet’s favourite enchanted meals and treats.",
+    "description": "Fresh, fast delivery of your pet’s favourite enchanted meals and treats, made to keep tails wagging.",
     "pricingmin": "€5",
     "pricingmax": "€15",
     "per": "delivery"
