@@ -54,7 +54,7 @@ label, .labelt{
     font-size: 17px;
 }
 
-input{
+input, #message{
     border-radius: 5px;
     height: 35px;
     width: 80%;
@@ -67,6 +67,7 @@ input{
 
 #message{
   height: 60px;
+  resize: none;
 }
 
 @media (min-width: 768px){

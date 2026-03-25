@@ -54,6 +54,11 @@
   color: #D9A86F;
 }
 
+.btn1:hover, .btn2:hover{
+border: 2px solid #D9A86F;
+transform: scale(1);
+}
+
 @media (min-width: 600px) {
   .Home-Container {
     padding: 80px 40px;

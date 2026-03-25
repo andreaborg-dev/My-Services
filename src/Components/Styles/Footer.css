@@ -11,6 +11,7 @@ footer {
   font-size: 19px;
   font-weight: 900;
   padding: 20px 0;
+  display: none;
 }
 
 
@@ -18,5 +19,6 @@ footer {
 @media (min-width: 768px) {
   footer {
     letter-spacing: 0.5em;
+    display: flex;
   }
 }

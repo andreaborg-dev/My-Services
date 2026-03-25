@@ -61,7 +61,7 @@ export default function Contactform() {
         />
 
         <label>Your Message</label>
-        <input
+        <textarea
           name="message"
           value={form.message}
           onChange={handleChange}
